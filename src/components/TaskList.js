@@ -5,7 +5,7 @@ class TaskList extends Component {
         return (
             <div className="p-3">
                 <table className="table table-bordered">
-                    <thead>
+                    <thead style={{width: "100px"}}>
                     <tr>
                         <th style={{width: "50px"}}>ID</th>
                         <th>Task</th>
